@@ -67,7 +67,7 @@ export function FeaturePage() {
               {[
                 { icon: Zap, text: 'Lightning-fast transactions' },
                 { icon: Rocket, text: 'Deflationary tokenomics' },
-                { icon: Coins, text: 'Staking rewards' },
+                { icon: Coins, text: 'Local Shopping' },
                 { icon: TrendingUp, text: 'Guaranteed moon landing' },
               ].map((item, index) => (
                 <motion.li key={index} whileHover={{ scale: 1.05 }} className="text-base sm:text-lg md:text-xl flex items-center">
@@ -86,10 +86,10 @@ export function FeaturePage() {
           <CardContent>
             <div className="space-y-2 sm:space-y-3 md:space-y-4">
               <p className="text-lg sm:text-xl md:text-2xl font-semibold">
-                Price: 1 ETH = 10,000 IY
+                Price: 1 ETH = 10,521 IY
               </p>
               <p className="text-lg sm:text-xl md:text-2xl font-semibold">
-                Min Purchase: 0.1 ETH
+                Min Purchase: 0.0001 ETH
               </p>
               <p className="text-lg sm:text-xl md:text-2xl font-semibold">
                 Max Purchase: 5 ETH

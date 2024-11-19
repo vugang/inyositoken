@@ -92,13 +92,20 @@ export function PrivacyPolicyComponent() {
                 <h2 className="text-2xl font-semibold mb-2">9. Contact Us</h2>
                 <p>If you have any questions about this Privacy Policy, please contact us at:</p>
                 <p className="mt-2">
-                  [Your Company Name]<br />
-                  Email: [Your Contact Email]<br />
-                  Address: [Your Company Address]
+                  InYosi IT<br />
+
+                       <a
+        href={`https://t.me/inyosi_official`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-[#4b6bfb] hover:underline ml-2"
+      >
+        Click Here for Support 
+      </a>
                 </p>
               </section>
 
-              <p className="mt-6 text-sm text-gray-600">Last updated: [Date]</p>
+              <p className="mt-6 text-sm text-gray-600">Last updated: 19/11/2024</p>
             </div>
           </ScrollArea>
         </CardContent>

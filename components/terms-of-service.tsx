@@ -55,7 +55,7 @@ export function TermsOfServiceComponent() {
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">9. Governing Law</h2>
-                <p>These Terms shall be governed and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.</p>
+                <p>These Terms shall be governed and construed in accordance with the laws of Consumer Protection Law, without regard to its conflict of law provisions.</p>
               </section>
 
               <section>
@@ -65,7 +65,16 @@ export function TermsOfServiceComponent() {
 
               <section>
                 <h2 className="text-2xl font-semibold mb-2">11. Contact Us</h2>
-                <p>If you have any questions about these Terms, please contact us at [Your Contact Information].</p>
+                <p>If you have any questions about these Terms, please contact us on Telegram.
+                <a
+        href={`https://t.me/inyosi_official`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block text-[#4b6bfb] hover:underline ml-2"
+      >
+        Click Here 
+      </a>
+                </p>
               </section>
             </div>
           </ScrollArea>
