@@ -12,7 +12,7 @@ export function InfoParagraph() {
       Built on a robust and transparent blockchain, InYosi Token ensures the
       security and integrity of every transaction.
       <a
-        href={`https://sepolia.etherscan.io/token/0x5C0d1ed3f7518F17d73f7687926367360a773e13`}
+        href={`https://sepolia.arbiscan.io/token/0x5bB3D554ac0F774473149871109030697a8ACB4A`}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block text-[#4b6bfb] hover:underline ml-2"
