@@ -31,7 +31,7 @@ export function Look() {
   useEffect(() => {
     const fetchSaleEndTime = async () => {
       try {
-        const provider = new ethers.BrowserProvider(window.ethereum as any);
+        const provider = new ethers.BrowserProvider(window.ethereum);
         const contract = new ethers.Contract(tokenSaleAddress, soloABI, provider);
 
         // Fetch sale start time and duration
@@ -78,7 +78,7 @@ export function Look() {
     const fetchTokenPrice = async () => {
       if (activeAccount?.address) {
         try {
-          const provider = new ethers.BrowserProvider(window.ethereum as any);
+          const provider = new ethers.BrowserProvider(window.ethereum);
           const contract = new ethers.Contract(tokenSaleAddress, soloABI, provider);
           const fetchedPrice = await contract.price();
           const formattedPrice = ethers.formatUnits(fetchedPrice, "ether");
@@ -97,7 +97,7 @@ export function Look() {
     const fetchPresaleSupply = async () => {
       if (activeAccount?.address) {
         try {
-          const provider = new ethers.BrowserProvider(window.ethereum as any);
+          const provider = new ethers.BrowserProvider(window.ethereum);
           const contract = new ethers.Contract(tokenSaleAddress, soloABI, provider);
           const supply = await contract.presaleSupply();
           const formattedSupply = ethers.formatUnits(supply, "ether");
