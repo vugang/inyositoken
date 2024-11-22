@@ -98,7 +98,7 @@ const InputSanitizer: React.FC<InputSanitizerProps> = ({
       return;
     }
 
-    const provider = new ethers.BrowserProvider(window.ethereum as any);
+    const provider = new ethers.BrowserProvider(window.ethereum);
     const signer = await provider.getSigner();
     const contract = new ethers.Contract(tokenSaleAddress, soloABI, signer);
 
