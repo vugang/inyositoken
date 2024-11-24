@@ -22,7 +22,7 @@ export function PrivacyPolicyComponent() {
     We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you participate in our crypto token presale. By accessing or participating in the presale, you agree to the terms outlined in this policy.
   </p>
   <p>
-    During the presale process, we may collect certain information, such as your name, email address, wallet address, and other relevant details necessary for registration, verification, and compliance with regulatory requirements. We use this information to facilitate your participation in the presale, enhance our services, and ensure the security of transactions. We are dedicated to using your data responsibly and only for the purposes outlined in this policy.
+    During the presale process, we may collect certain information, such as wallet address necessary for registration, verification, and compliance with regulatory requirements. We use this information to facilitate your participation in the presale, enhance our services, and ensure the security of transactions. We are dedicated to using your data responsibly and only for the purposes outlined in this policy.
   </p>
   <p>
     We understand the importance of confidentiality, especially in the crypto space, and take appropriate measures to protect your personal information from unauthorized access or misuse. Your data will not be shared with third parties except as required by law or to fulfill legal obligations. Please read this policy carefully to understand how we handle your information. If you have any questions or concerns, feel free to contact us. Thank you for trusting us with your information.
